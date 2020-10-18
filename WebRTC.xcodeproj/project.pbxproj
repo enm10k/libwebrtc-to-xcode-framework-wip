@@ -7,13 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4F3A22253C056E001775B7 /* call in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A09253C0540001775B7 /* call */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A23253C056E001775B7 /* rtc_tools in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0A253C0541001775B7 /* rtc_tools */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A24253C056E001775B7 /* rtc_base in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0B253C0544001775B7 /* rtc_base */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A25253C056E001775B7 /* logging in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0C253C0545001775B7 /* logging */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A26253C056E001775B7 /* base in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0D253C0549001775B7 /* base */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A27253C056E001775B7 /* tools in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0E253C054A001775B7 /* tools */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A28253C056E001775B7 /* test in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A0F253C054C001775B7 /* test */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A29253C056E001775B7 /* sdk in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A10253C054E001775B7 /* sdk */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2A253C056E001775B7 /* testing in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A11253C0550001775B7 /* testing */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2B253C056E001775B7 /* examples in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A12253C0552001775B7 /* examples */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2C253C056E001775B7 /* audio in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A13253C0554001775B7 /* audio */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2D253C056E001775B7 /* video in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A14253C0554001775B7 /* video */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2E253C056E001775B7 /* common_video in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A15253C0556001775B7 /* common_video */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A2F253C056E001775B7 /* stats in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A16253C0558001775B7 /* stats */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A30253C056E001775B7 /* buildtools in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A17253C055B001775B7 /* buildtools */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A31253C056E001775B7 /* modules in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A18253C055E001775B7 /* modules */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A32253C056E001775B7 /* build in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A19253C0561001775B7 /* build */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A33253C056E001775B7 /* system_wrappers in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1A253C0561001775B7 /* system_wrappers */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A34253C056E001775B7 /* pc in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1B253C0563001775B7 /* pc */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A35253C056E001775B7 /* media in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1C253C0565001775B7 /* media */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A36253C056E001775B7 /* common_audio in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1D253C0567001775B7 /* common_audio */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A37253C056E001775B7 /* third_party in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1E253C0567001775B7 /* third_party */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A38253C056E001775B7 /* api in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A1F253C0569001775B7 /* api */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A39253C056E001775B7 /* p2p in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A20253C056B001775B7 /* p2p */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A3A253C056E001775B7 /* common_types.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F3A21253C056E001775B7 /* common_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F3A40253C2EC5001775B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F3A3F253C2EC5001775B7 /* AVFoundation.framework */; };
+		AD4F3A42253C2ECE001775B7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F3A41253C2ECE001775B7 /* CoreMedia.framework */; };
+		AD4F3A44253C2EE0001775B7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F3A43253C2EE0001775B7 /* VideoToolbox.framework */; };
+		ADACCC76253C7E890005B47B /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36B4AC253BFD80006A4677 /* libwebrtc.a */; };
 		ADFBCA612534AAA300E521D9 /* WebRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFBCA5F2534AAA300E521D9 /* WebRTC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD36B4AC253BFD80006A4677 /* libwebrtc.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; name = libwebrtc.a; path = lib/libwebrtc.a; sourceTree = "<group>"; };
+		AD4F3A09253C0540001775B7 /* call */ = {isa = PBXFileReference; lastKnownFileType = folder; path = call; sourceTree = "<group>"; };
+		AD4F3A0A253C0541001775B7 /* rtc_tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rtc_tools; sourceTree = "<group>"; };
+		AD4F3A0B253C0544001775B7 /* rtc_base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rtc_base; sourceTree = "<group>"; };
+		AD4F3A0C253C0545001775B7 /* logging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logging; sourceTree = "<group>"; };
+		AD4F3A0D253C0549001775B7 /* base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = base; sourceTree = "<group>"; };
+		AD4F3A0E253C054A001775B7 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tools; path = ../../Downloads/webrtc.macos/include/tools; sourceTree = "<group>"; };
+		AD4F3A0F253C054C001775B7 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		AD4F3A10253C054E001775B7 /* sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sdk; sourceTree = "<group>"; };
+		AD4F3A11253C0550001775B7 /* testing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testing; sourceTree = "<group>"; };
+		AD4F3A12253C0552001775B7 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		AD4F3A13253C0554001775B7 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		AD4F3A14253C0554001775B7 /* video */ = {isa = PBXFileReference; lastKnownFileType = folder; name = video; path = ../../Downloads/webrtc.macos/include/video; sourceTree = "<group>"; };
+		AD4F3A15253C0556001775B7 /* common_video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common_video; sourceTree = "<group>"; };
+		AD4F3A16253C0558001775B7 /* stats */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stats; sourceTree = "<group>"; };
+		AD4F3A17253C055B001775B7 /* buildtools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = buildtools; sourceTree = "<group>"; };
+		AD4F3A18253C055E001775B7 /* modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = modules; sourceTree = "<group>"; };
+		AD4F3A19253C0561001775B7 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		AD4F3A1A253C0561001775B7 /* system_wrappers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = system_wrappers; path = ../../Downloads/webrtc.macos/include/system_wrappers; sourceTree = "<group>"; };
+		AD4F3A1B253C0563001775B7 /* pc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pc; sourceTree = "<group>"; };
+		AD4F3A1C253C0565001775B7 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		AD4F3A1D253C0567001775B7 /* common_audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common_audio; sourceTree = "<group>"; };
+		AD4F3A1E253C0567001775B7 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; name = third_party; path = ../../Downloads/webrtc.macos/include/third_party; sourceTree = "<group>"; };
+		AD4F3A1F253C0569001775B7 /* api */ = {isa = PBXFileReference; lastKnownFileType = folder; path = api; sourceTree = "<group>"; };
+		AD4F3A20253C056B001775B7 /* p2p */ = {isa = PBXFileReference; lastKnownFileType = folder; path = p2p; sourceTree = "<group>"; };
+		AD4F3A21253C056E001775B7 /* common_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common_types.h; sourceTree = "<group>"; };
+		AD4F3A3F253C2EC5001775B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AD4F3A41253C2ECE001775B7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AD4F3A43253C2EE0001775B7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		ADFBCA5C2534AAA300E521D9 /* WebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFBCA5F2534AAA300E521D9 /* WebRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebRTC.h; sourceTree = "<group>"; };
 		ADFBCA602534AAA300E521D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFBCA6C2534AAF500E521D9 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +80,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADACCC76253C7E890005B47B /* libwebrtc.a in Frameworks */,
+				AD4F3A44253C2EE0001775B7 /* VideoToolbox.framework in Frameworks */,
+				AD4F3A42253C2ECE001775B7 /* CoreMedia.framework in Frameworks */,
+				AD4F3A40253C2EC5001775B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD36B4AB253BFD80006A4677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD4F3A43253C2EE0001775B7 /* VideoToolbox.framework */,
+				AD4F3A41253C2ECE001775B7 /* CoreMedia.framework */,
+				AD4F3A3F253C2EC5001775B7 /* AVFoundation.framework */,
+				AD36B4AC253BFD80006A4677 /* libwebrtc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADFBCA522534AAA300E521D9 = {
 			isa = PBXGroup;
 			children = (
+				AD4F3A1F253C0569001775B7 /* api */,
+				AD4F3A13253C0554001775B7 /* audio */,
+				AD4F3A0D253C0549001775B7 /* base */,
+				AD4F3A19253C0561001775B7 /* build */,
+				AD4F3A17253C055B001775B7 /* buildtools */,
+				AD4F3A09253C0540001775B7 /* call */,
+				AD4F3A1D253C0567001775B7 /* common_audio */,
+				AD4F3A21253C056E001775B7 /* common_types.h */,
+				AD4F3A15253C0556001775B7 /* common_video */,
+				AD4F3A12253C0552001775B7 /* examples */,
+				AD4F3A0C253C0545001775B7 /* logging */,
+				AD4F3A1C253C0565001775B7 /* media */,
+				AD4F3A18253C055E001775B7 /* modules */,
+				AD4F3A20253C056B001775B7 /* p2p */,
+				AD4F3A1B253C0563001775B7 /* pc */,
+				AD4F3A0B253C0544001775B7 /* rtc_base */,
+				AD4F3A0A253C0541001775B7 /* rtc_tools */,
+				AD4F3A10253C054E001775B7 /* sdk */,
+				AD4F3A16253C0558001775B7 /* stats */,
+				AD4F3A1A253C0561001775B7 /* system_wrappers */,
+				AD4F3A0F253C054C001775B7 /* test */,
+				AD4F3A11253C0550001775B7 /* testing */,
+				AD4F3A1E253C0567001775B7 /* third_party */,
+				AD4F3A0E253C054A001775B7 /* tools */,
+				AD4F3A14253C0554001775B7 /* video */,
+				ADFBCA6C2534AAF500E521D9 /* lib */,
 				ADFBCA5E2534AAA300E521D9 /* WebRTC */,
 				ADFBCA5D2534AAA300E521D9 /* Products */,
+				AD36B4AB253BFD80006A4677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +161,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADFBCA612534AAA300E521D9 /* WebRTC.h in Headers */,
+				AD4F3A22253C056E001775B7 /* call in Headers */,
+				AD4F3A23253C056E001775B7 /* rtc_tools in Headers */,
+				AD4F3A24253C056E001775B7 /* rtc_base in Headers */,
+				AD4F3A25253C056E001775B7 /* logging in Headers */,
+				AD4F3A26253C056E001775B7 /* base in Headers */,
+				AD4F3A27253C056E001775B7 /* tools in Headers */,
+				AD4F3A28253C056E001775B7 /* test in Headers */,
+				AD4F3A29253C056E001775B7 /* sdk in Headers */,
+				AD4F3A2A253C056E001775B7 /* testing in Headers */,
+				AD4F3A2B253C056E001775B7 /* examples in Headers */,
+				AD4F3A2C253C056E001775B7 /* audio in Headers */,
+				AD4F3A2D253C056E001775B7 /* video in Headers */,
+				AD4F3A2E253C056E001775B7 /* common_video in Headers */,
+				AD4F3A2F253C056E001775B7 /* stats in Headers */,
+				AD4F3A30253C056E001775B7 /* buildtools in Headers */,
+				AD4F3A31253C056E001775B7 /* modules in Headers */,
+				AD4F3A32253C056E001775B7 /* build in Headers */,
+				AD4F3A33253C056E001775B7 /* system_wrappers in Headers */,
+				AD4F3A34253C056E001775B7 /* pc in Headers */,
+				AD4F3A35253C056E001775B7 /* media in Headers */,
+				AD4F3A36253C056E001775B7 /* common_audio in Headers */,
+				AD4F3A37253C056E001775B7 /* third_party in Headers */,
+				AD4F3A38253C056E001775B7 /* api in Headers */,
+				AD4F3A39253C056E001775B7 /* p2p in Headers */,
+				AD4F3A3A253C056E001775B7 /* common_types.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -269,6 +395,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.webrtc.WebRTC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -290,6 +420,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.webrtc.WebRTC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
