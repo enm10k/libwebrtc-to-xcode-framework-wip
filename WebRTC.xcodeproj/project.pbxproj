@@ -36,6 +36,7 @@
 		AD4F3A42253C2ECE001775B7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F3A41253C2ECE001775B7 /* CoreMedia.framework */; };
 		AD4F3A44253C2EE0001775B7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F3A43253C2EE0001775B7 /* VideoToolbox.framework */; };
 		ADACCC76253C7E890005B47B /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36B4AC253BFD80006A4677 /* libwebrtc.a */; };
+		ADFB7C5E253F1DF800A63BA2 /* libwebrtc.a in Resources */ = {isa = PBXBuildFile; fileRef = AD36B4AC253BFD80006A4677 /* libwebrtc.a */; };
 		ADFBCA612534AAA300E521D9 /* WebRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFBCA5F2534AAA300E521D9 /* WebRTC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -246,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFB7C5E253F1DF800A63BA2 /* libwebrtc.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
